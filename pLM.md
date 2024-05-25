@@ -16,6 +16,7 @@
 | PoET | 57M - 604M | [arXiv](https://arxiv.org/abs/2306.06156) | Not available | Only available through OpenProtein.AI web app |
 | DistilProtBert | 230M |[bioRxiv](https://www.biorxiv.org/content/early/2022/05/10/2022.05.09.491157) | [Code](https://github.com/yarongef/DistilProtBert) ||
 | DARK | 128M | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1)|||
+| ProtMamba | 107M | [bioRxiv](https://doi.org/10.1101/2024.05.24.595730) | [Code](https://github.com/Bitbol-Lab/ProtMamba-ssm) ||
 | PRoBERTa | 44M | [Paper](https://doi.org/10.1145/3388440.3412467) | [Code](https://github.com/annambiar/PRoBERTa) ||
 | TAPE | 38M | [arXiv](https://arxiv.org/abs/1906.08230) | [Code](https://github.com/songlab-cal/tape) ||
 | ProteinBERT | 16M | [Paper](https://doi.org/10.1093/bioinformatics/btac020) | [Code](https://github.com/nadavbra/protein_bert), [PyTorch](https://github.com/lucidrains/protein-bert-pytorch) |~106M proteins from UniRef90; 28 days over ~670M records (i.e. ~6.4 iterations)|
@@ -24,12 +25,13 @@
 ## Special purpose pLM
 | Name | Params | Paper | Code | Notes | 
 | :-------- | -------  | --------- | ------- | --------- |
+| METL | 20M - 50M | [bioRxiv](https://doi.org/10.1101/2024.03.15.585128) | [Code](https://github.com/gitter-lab/metl) | Pretrained on biophysical simulations |
 | PeTriBERT | 40M | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1) | N/A | Optimized for protein design |
 
 ## Non-transformer-based sequence models
 | Name | Params | Paper | Code | Notes |
 | :-------- | -------  | --------- | ------- | --------- |
-| CARP | 600K - 640M  | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.05.19.492714v2) | [Code](https://github.com/microsoft/protein-sequence-models)| CNN |
+| CARP | 600K - 640M  | [Paper](http://doi.org/10.1016/j.cels.2024.01.008) | [Code](https://github.com/microsoft/protein-sequence-models)| CNN |
 | SeqVec | 93M | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3220-8) | [Code](https://github.com/mheinzinger/SeqVec)| bidirectional LSTM; UniRef50 |
 | UniRep | 90M | [Paper](https://www.nature.com/articles/s41592-019-0598-1)| [Code](https://github.com/churchlab/UniRep)| mLSTM |
 | ProSE | 24M | [Paper](https://www.sciencedirect.com/science/article/pii/S2405471221002039) | [Code](https://github.com/tbepler/prose) | LSTM |
@@ -52,4 +54,5 @@
 | GENA-LM | 110M - 336M | [bioRxiv](https://doi.org/10.1101/2023.06.12.544594)| [Code](https://github.com/AIRI-Institute/GENA_LM) | Inputs up to 36,000 base pairs |
 
 # Building on pLMs
-- [protGPT2_gradioFold](https://huggingface.co/spaces/Gradio-Blocks/protGPT2_gradioFold) 
+- [protGPT2_gradioFold](https://huggingface.co/spaces/Gradio-Blocks/protGPT2_gradioFold)
+- [Multi-modal text+sequence](https://github.com/QizhiPei/Awesome-Biomolecule-Language-Cross-Modeling?tab=readme-ov-file#text--protein)
