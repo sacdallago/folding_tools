@@ -40,6 +40,7 @@
 | Name | Params | Paper | Code | Notes |
 | :-------- | -------  | --------- | ------- | --------- |
 | FAbCon | 144M - 2.4B | [bioRxiv](https://doi.org/10.1101/2024.05.22.594943) |[Code](https://huggingface.co/alchemab/fabcon-large)||
+| AntiBERTa2 | 202M | [bioRxiv](https://doi.org/10.1101/2023.12.12.569610) |[Code](https://huggingface.co/alchemab/antiberta2)| AntiBERTa2-CSSP is a multi-modal sequence-structure modal |
 | TCR-BERT | 100M | [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.11.18.469186v1) |[Code](https://github.com/wukevin/tcr-bert)||
 | AntiBERTa | 86M | [Paper](https://www.sciencedirect.com/science/article/pii/S2666389922001052) | [Code](https://github.com/alchemab/antiberta) ||
 | AntiBERTy | 26M | [arXiv](https://arxiv.org/abs/2112.07782) | [Code](https://pypi.org/project/antiberty) ||
