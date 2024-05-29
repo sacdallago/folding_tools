@@ -25,6 +25,7 @@
 ## Special purpose pLM
 | Name | Params | Paper | Code | Notes | 
 | :-------- | -------  | --------- | ------- | --------- |
+| SaProt | 35M - 650M | [bioRxiv](https://doi.org/10.1101/2024.05.24.595648) | [Code](https://github.com/westlake-repl/Saprot) | Includes structure information via Foldseek tokens |
 | METL | 20M - 50M | [bioRxiv](https://doi.org/10.1101/2024.03.15.585128) | [Code](https://github.com/gitter-lab/metl) | Pretrained on biophysical simulations |
 | PeTriBERT | 40M | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1) | N/A | Optimized for protein design |
 
