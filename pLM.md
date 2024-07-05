@@ -13,7 +13,7 @@
 | ProtGPT2 | 738M | [Paper](https://www.nature.com/articles/s41467-022-32007-7) | [Code](https://huggingface.co/nferruz/ProtGPT2) ||
 | Tranception | 700M | [Paper](https://proceedings.mlr.press/v162/notin22a.html) | [Code](https://github.com/OATML-Markslab/Tranception) ||
 | ESM1 | 43M - 670M | [Paper](https://www.pnas.org/doi/10.1073/pnas.2016239118) | [Code](https://github.com/facebookresearch/esm) ||
-| PoET | 57M - 604M | [arXiv](https://arxiv.org/abs/2306.06156) | Not available | Only available through OpenProtein.AI web app |
+| PoET | 57M - 604M | [arXiv](https://arxiv.org/abs/2306.06156) | [Code](https://github.com/OpenProteinAI/PoET) |  |
 | DistilProtBert | 230M |[bioRxiv](https://www.biorxiv.org/content/early/2022/05/10/2022.05.09.491157) | [Code](https://github.com/yarongef/DistilProtBert) ||
 | DARK | 128M | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1)|||
 | ProtMamba | 107M | [bioRxiv](https://doi.org/10.1101/2024.05.24.595730) | [Code](https://github.com/Bitbol-Lab/ProtMamba-ssm) ||
