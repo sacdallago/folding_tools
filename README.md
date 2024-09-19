@@ -110,6 +110,27 @@
     [![](https://img.shields.io/badge/DOI-10.1101%2F2022.10.07.511322-lightgrey)](https://doi.org/10.1101/2022.10.07.511322)
     - Diffusion model to predict protein structures (specifically antibodies)
     - Features: monomer
+      
+- **Conformational change and dynamics** (TODO)
+  - AFcluster
+  - AFsample
+  - etc
+ 
+- **AlphaFold3 and friends**
+  - AlphaFold3
+    - Source Code (~Nov 2024)
+    - [Paper](https://www.nature.com/articles/s41586-024-07487-w)
+  - HelixFold3
+    - [Source Code](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/protein_folding/helixfold3), [Server](https://paddlehelix.baidu.com/app/all/helixfold3/forecast), [Paper](https://arxiv.org/abs/2408.16975)
+  - Chai-1
+    - Has support for using pLMs (instead of MSA), and defining of constraints (crosslinks, epitope, etc)
+    - [Limited Source Code](https://github.com/chaidiscovery/chai-lab), [Server](https://lab.chaidiscovery.com), [Paper](https://chaiassets.com/chai-1/paper/technical_report_v1.pdf)
+  - Ligo-Biosciences (monomers only)
+    - [Source Code](https://github.com/Ligo-Biosciences/AlphaFold3)
+  - Lucidrain et al. (code only)
+    - [Source Code](https://github.com/lucidrains/alphafold3-pytorch)
+  - OpenFold3
+    - Source Code (~Oct/Nov 2024)
 
 <a name="Tools"></a>
 ### Tools and Extensions
